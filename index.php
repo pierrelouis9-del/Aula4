@@ -13,6 +13,7 @@
     $idade="18";
     ?>
     <h1>Nome:<?= $nome ?> </h1>
+    <br>
     <p>Idade:<?= $idade ?> </p>
 </body>
 </html>
