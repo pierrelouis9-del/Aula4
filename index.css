@@ -8,13 +8,15 @@
      background-color: rgb(255, 255, 255);
      display: flex;
      align-items: center;
+     justify-content: center;
+     min-height: 100vh;
  }
 
  h1 {
      background-color: black;
      color: white;
      border: 1px solid;
-     border-radius: 25px;
+     border-radius: 10px;
  }
 
  h1:hover {
