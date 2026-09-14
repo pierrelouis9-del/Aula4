@@ -12,15 +12,5 @@
      min-height: 100vh;
  }
 
- h1 {
-     background-color: black;
-     color: white;
-     border: 1px solid;
-     border-radius: 10px;
-     border-color: chartreuse;
- }
 
- h1:hover {
-     background-color: blue;
-     color: red;
- }
+

@@ -10,7 +10,9 @@
 
     <?php 
     $nome="juvensky";
-    echo"<h1>Hello $nome</h1>";
+    $idade="18";
     ?>
+    <h1>Nome:<?= $nome ?> </h1>
+    <p>Idade:<?= $idade ?> </p>
 </body>
 </html>
