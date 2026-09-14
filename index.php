@@ -10,7 +10,7 @@
 
     <?php 
     $nome="juvensky";
-    $idade="16";
+    $idade="18";
 
     if ($idade >= 18 ){
        $adulto="Voce é maior de idade";
