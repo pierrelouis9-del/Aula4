@@ -11,6 +11,10 @@
     <?php 
     $nome="juvensky";
     $idade="18";
+
+    if ($idade >= 18 ){
+        echo"<h3>$nome é maior de iadade</h3>";
+    }
     ?>
     <h1>Nome:<?= $nome ?> </h1>
     <br>
