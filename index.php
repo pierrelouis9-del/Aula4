@@ -10,10 +10,12 @@
 
     <?php 
     $nome="juvensky";
-    $idade="18";
+    $idade="16";
 
     if ($idade >= 18 ){
        $adulto="Voce é maior de idade";
+    } else {
+        $adulto="Voce é menor de idade";
     }
     ?>
     <h1>Nome:<?= $nome ?> </h1>
