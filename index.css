@@ -13,7 +13,7 @@
  }
 
  .A {
-    justify-items: center;
+    display: flex;
      align-items: center;
      text-align: center;
      background-color: rgb(240, 248, 255);
