@@ -12,6 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 if ($idade >= 18) {
     $resultado = "Voce é maior de idade";
+} elseif ($idade <= 0) {
+    $resultado = " voce ainda não nasceu";
 } else {
     $resultado = "Voce é menor de idade";
 }
@@ -40,11 +42,11 @@ if ($idade >= 18) {
             </form>
         </div>
         <div class="B">
-        
+
             <!--  -->
             <?php if ($resultado != "") { ?>
 
-                <h4> 
+                <h4>
                     <strong>Nome:</strong><?= $nome ?> <br>
                     <strong>Idade:</strong><?= $idade ?> <br>
                     <?= $resultado ?>
