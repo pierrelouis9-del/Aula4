@@ -1,6 +1,6 @@
 <?php
 $nome = "";
-$idade = 0;
+$idade = "";
 $resultado = "";
 
 //VERIFICANDO SE O METODO USADO E POST 
