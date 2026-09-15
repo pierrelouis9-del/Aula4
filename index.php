@@ -40,9 +40,10 @@
         </form>
     </div>
     <div>
-        <?php 
-        
-        ?>
+        <!--  -->
+        <?php if($resultado != ""){ ?>
+
+        <?php } ?>
     </div>
 
 
