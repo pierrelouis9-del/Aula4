@@ -44,11 +44,11 @@ if ($idade >= 18) {
             <!--  -->
             <?php if ($resultado != "") { ?>
 
-                <h3> 
-                    <strong>Nome</strong><?= $nome ?>
-                    <strong>Idade</strong><?= $idade ?>
+                <h4> 
+                    <strong>Nome:</strong><?= $nome ?>
+                    <strong>Idade:</strong><?= $idade ?>
                     <?= $resultado ?>
-                </h3>
+                </h4>
             <?php } ?>
         </div>
 
