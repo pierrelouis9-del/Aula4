@@ -1,21 +1,21 @@
 <?php
-    $nome = "";
-    $idade = 0;
-    $resultado = "";
+$nome = "";
+$idade = 0;
+$resultado = "";
 
-    //VERIFICANDO SE O METODO USADO E POST 
-    if($_SERVER["REQUEST_METHOD"]== "POST"){
-        //re declarar variavel e chama os ids
-        $nome = $_POST["nome"];
-        $idade = $_POST["idade"];
-    }
+//VERIFICANDO SE O METODO USADO E POST 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    //re declarar variavel e chama os ids
+    $nome = $_POST["nome"];
+    $idade = $_POST["idade"];
+}
 
-    if ($idade >= 18) {
-        $adulto = "Voce é maior de idade";
-    } else {
-        $adulto = "Voce é menor de idade";
-    }
-    ?>
+if ($idade >= 18) {
+    $adulto = "Voce é maior de idade";
+} else {
+    $adulto = "Voce é menor de idade";
+}
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -29,24 +29,24 @@
 
 <body>
 
-  
-    <div class="A">
-        <form method="POST" >
-            <input type="text" placeholder="Escrever seu nome" id="nome" name="Nome">
-            <br>
-            <input type="number" placeholder="Escrever sua idade" id="idade" name="Idade">
-            <br>
-            <button type="submit"> Enviar</button>
-        </form>
-    </div>
-    <div class="B">
-        <!--  -->
-        <?php if($resultado != ""){ ?>
+    <main class="container">
+        <div class="A">
+            <form method="POST">
+                <input type="text" placeholder="Escrever seu nome" id="nome" name="Nome">
+                <br>
+                <input type="number" placeholder="Escrever sua idade" id="idade" name="Idade">
+                <br>
+                <button type="submit"> Enviar</button>
+            </form>
+        </div>
+        <div class="B">
+            <!--  -->
+            <?php if ($resultado != "") { ?>
 
-        <?php } ?>
-    </div>
+            <?php } ?>
+        </div>
 
-
+    </main>
 </body>
 
 </html>
