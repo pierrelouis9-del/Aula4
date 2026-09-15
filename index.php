@@ -40,12 +40,13 @@ if ($idade >= 18) {
             </form>
         </div>
         <div class="B">
+            yo
             <!--  -->
             <?php if ($resultado != "") { ?>
 
-                <h3> yo
+                <h3> 
                     <?= $nome ?>
-                    <?= $idade ?>
+                    <?= $resultado ?>
                 </h3>
             <?php } ?>
         </div>
