@@ -39,7 +39,7 @@
             <button type="submit"> Enviar</button>
         </form>
     </div>
-    <div>
+    <div class="B">
         <!--  -->
         <?php if($resultado != ""){ ?>
 
