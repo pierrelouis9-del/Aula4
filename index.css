@@ -27,7 +27,7 @@
      align-items: center;
      justify-content: center;
      text-align: center;
-     background-color: rgba(240, 248, 255, 0.233);
+     background-color: rgba(240, 248, 255, 0.76);
      width: 250px;
      height: 250px;
      border-radius: 20px;
@@ -46,7 +46,7 @@
      width: 225px;
      height: 30px;
      color: black;
-     background-color: aliceblue;
+     background-color: rgba(240, 248, 255, 0.76);
      border: none;
      border-radius: 5px;
  }
@@ -57,7 +57,7 @@
      align-items: center;
      justify-content: center;
      text-align: center;
-     background-color: rgba(240, 248, 255, 0.233);
+     background-color: rgba(240, 248, 255, 0.719);
      width: 250px;
      height: 250px;
      border-radius: 20px;
