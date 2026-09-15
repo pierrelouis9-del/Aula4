@@ -12,7 +12,8 @@
      min-height: 100vh;
  }
 
- div {
+ .A {
+    align-items: center;
      text-align: center;
      background-color: rgb(240, 248, 255);
      width: 250px;
@@ -20,3 +21,7 @@
      border-radius: 20px;
      border: solid 5px;
  }
+
+.A input{
+    color: black;
+}

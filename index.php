@@ -20,7 +20,7 @@
         $adulto = "Voce é menor de idade";
     }
     ?>
-    <div>
+    <div class="A">
         <form action="" method="get">
             <input type="text" aria-label="Escrever seu nome" id="nome">
             <input type="text" aria-label="Escrever sua idade" id="idade">
