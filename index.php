@@ -43,6 +43,10 @@ if ($idade >= 18) {
             <!--  -->
             <?php if ($resultado != "") { ?>
 
+                <h3>
+                    <?= $nome ?>
+                    <?= $idade ?>
+                </h3>
             <?php } ?>
         </div>
 
