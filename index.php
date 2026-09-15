@@ -11,8 +11,16 @@
 <body>
 
     <?php
-    $nome = "juvensky";
-    $idade = "18";
+    $nome = "";
+    $idade = 0;
+    $resultado = "";
+
+    //VERIFICANDO SE O METODO USADO E POST 
+    if($_SERVER["REQUEST_METHOD"]== "POST"){
+        //re declarar variavel e chama os ids
+        $nome = $_POST["nome"];
+        $idade = $_POST["idade"];
+    }
 
     if ($idade >= 18) {
         $adulto = "Voce é maior de idade";
@@ -22,9 +30,9 @@
     ?>
     <div class="A">
         <form method="POST" >
-            <input type="text" placeholder="Escrever seu nome" id="nome" name="nome">
+            <input type="text" placeholder="Escrever seu nome" id="nome" name="Nome">
             <br>
-            <input type="number" placeholder="Escrever sua idade" id="idade" name="idade">
+            <input type="number" placeholder="Escrever sua idade" id="idade" name="Idade">
             <br>
             <button type="submit"> Enviar</button>
         </form>
