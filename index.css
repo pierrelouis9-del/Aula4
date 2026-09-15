@@ -23,13 +23,13 @@
     height: 250px;
     border-radius: 20px;
     border: solid 5px;
-    gap: 10px;
+    
 }
 .A form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 2px;
 }
  .A input {
      color: black;

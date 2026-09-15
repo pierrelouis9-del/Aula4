@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-    <?php
+<?php
     $nome = "";
     $idade = 0;
     $resultado = "";
@@ -28,6 +16,20 @@
         $adulto = "Voce é menor de idade";
     }
     ?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+  
     <div class="A">
         <form method="POST" >
             <input type="text" placeholder="Escrever seu nome" id="nome" name="Nome">
