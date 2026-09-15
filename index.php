@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,11 +21,16 @@
     }
     ?>
     <div>
-        <h1>Nome:<?= $nome ?> </h1>
-        <h2>Idade:<?= $idade ?> </h2>
-        <P><?= $adulto ?></P>
+        <form action="" method="get">
+            <input type="text" aria-label="Escrever seu nome" id="nome">
+            <input type="text" aria-label="Escrever sua idade" id="idade">
+            <button type="submit"> Enviar</button>
+        </form>
+        
     </div>
+    <div>
 
+    </div>
 
 
 </body>
