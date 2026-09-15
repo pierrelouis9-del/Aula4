@@ -8,15 +8,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //re declarar variavel e chama os ids
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
+
+    if ($idade >= 18) {
+        $resultado = "Voce é maior de idade";
+    } elseif ($idade <= 0) {
+        $resultado = " voce ainda não nasceu";
+    } else {
+        $resultado = "Voce é menor de idade";
+    }
 }
 
-if ($idade >= 18) {
-    $resultado = "Voce é maior de idade";
-} elseif ($idade <= 0) {
-    $resultado = " voce ainda não nasceu";
-} else {
-    $resultado = "Voce é menor de idade";
-}
+
 ?>
 
 <!DOCTYPE html>
