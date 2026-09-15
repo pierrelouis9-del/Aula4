@@ -46,7 +46,7 @@ if ($idade >= 18) {
 
                 <h4> 
                     <strong>Nome:</strong><?= $nome ?> <br>
-                    <strong>Idade:</strong><?= $idade ?>
+                    <strong>Idade:</strong><?= $idade ?> <br>
                     <?= $resultado ?>
                 </h4>
             <?php } ?>
