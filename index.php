@@ -21,10 +21,10 @@
     }
     ?>
     <div class="A">
-        <form action="" method="get">
-            <input type="text" aria-label="Escrever seu nome" id="nome">
+        <form method="POST" >
+            <input type="text" placeholder="Escrever seu nome" id="nome" name="nome">
             <br>
-            <input type="text" aria-label="Escrever sua idade" id="idade">
+            <input type="number" placeholder="Escrever sua idade" id="idade" name="idade">
             <br>
             <button type="submit"> Enviar</button>
         </form>
