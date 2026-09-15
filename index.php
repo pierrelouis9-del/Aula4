@@ -42,7 +42,7 @@ if ($idade >= 18) {
         <div class="B">
         
             <!--  -->
-            <?php if ($resultado != "") { ?>
+            <?php if ($resultado !== "") { ?>
 
                 <h4> 
                     <strong>Nome:</strong><?= $nome ?>
