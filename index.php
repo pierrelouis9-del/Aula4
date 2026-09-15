@@ -36,10 +36,11 @@
             <br>
             <button type="submit"> Enviar</button>
         </form>
-        
     </div>
     <div>
-
+        <?php 
+        
+        ?>
     </div>
 
 
