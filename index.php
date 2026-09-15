@@ -32,9 +32,9 @@ if ($idade >= 18) {
     <main class="container">
         <div class="A">
             <form method="POST">
-                <input type="text" placeholder="Escrever seu nome" id="nome" name="Nome">
+                <input type="text" placeholder="Escrever seu nome" id="nome" name="nome">
                 <br>
-                <input type="number" placeholder="Escrever sua idade" id="idade" name="Idade">
+                <input type="number" placeholder="Escrever sua idade" id="idade" name="idade">
                 <br>
                 <button type="submit"> Enviar </button>
             </form>
